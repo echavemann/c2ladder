@@ -24,7 +24,6 @@ typedef pair<ll,ll> pl;
 
 void solve()
 {
-    // your code here
     
 }
 
