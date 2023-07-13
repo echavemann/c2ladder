@@ -25,22 +25,15 @@ typedef pair<ll,ll> pl;
 void solve()
 {
     // your code here
-    ll n; cin >> n; ll res = 0;
-    vl nums;
-    REP(i, n) {
-        ll z; cin >> z;
-        nums.PB(z);
-    }
-    for (int i = 1; i < n-1; i++) {
-        if ((nums[i-1] != nums[i])&&(nums[i]!=nums[i+1])) {
-            cout << i+1 << endl;
-            return;
-        }
-    }
-    if (nums[0] != nums[1]) {
-        cout << 1 << endl;
-    }
-    else cout << n << endl;
+    // 
+    ll n; cin >> n;
+    string x; cin >> x;
+    string y = x; sort(y.begin(), y.end());
+    ll res = 0;
+    REP(i, sz(x)) {
+        if (x[i] != y[i]) res++;
+    }   
+    cout << res << endl;
 }
 
 int main()
