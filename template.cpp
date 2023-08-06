@@ -23,6 +23,7 @@
 #define lb lower_bound
 #define ub upper_bound
 #define pll pair<ll, ll>;
+#define nl "\n"
 
 using namespace std;
 

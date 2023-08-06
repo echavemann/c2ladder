@@ -23,32 +23,35 @@
 #define lb lower_bound
 #define ub upper_bound
 #define pll pair<ll, ll>;
+#define nl "\n"
 
 using namespace std;
 
-template<class T> using pq = priority_queue<T>;
-template<class T> using pqg = priority_queue<T, vector<T>, greater<T>>;
+template <class T>
+using pq = priority_queue<T>;
+template <class T>
+using pqg = priority_queue<T, vector<T>, greater<T>>;
 
 typedef vector<ll> vl;
-typedef pair<ll,ll> pl;
+typedef pair<ll, ll> pl;
 typedef long double ld;
 typedef unsigned long long ull;
 typedef complex<ld> cd;
 
 void solve()
 {
-    // Be insane or die trying.
+	// Be insane or die trying.
 }
 
 int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0), cout.tie(0);
-   	ll t;
-    	cin >> t;
-    	while (t--)
-    	{
-        	solve();
-    	}
-    	return 0;
+	ll t;
+	cin >> t;
+	while (t--)
+	{
+		solve();
+	}
+	return 0;
 }
